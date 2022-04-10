@@ -3,8 +3,6 @@ body{
     height: 100%;
     margin: 0;
     font-family: "Raleway", "Sans serif";
-    display: flex;
-    flex-direction: column
 }
 
 .menu{
@@ -16,8 +14,8 @@ nav img{
     width: 107px;
     height: 50px; 
     align-items: center;
-    padding-left: 6%;
-    padding-top: 3%;
+    padding-left: 3%;
+    padding-top: 2%;
 }
 nav ul{
     width: 20%;
@@ -59,8 +57,6 @@ li{
     list-style-type: none;
     flex-direction: column;   
 }
-
-
 .icone_map{
     background-color:#F2F2F2;
     color:#0065FC;
@@ -78,107 +74,40 @@ i{
 }
 
 .filter{
-    display: flex;
-    flex-direction: row;
     padding:2%;
     padding-left: 1%;
     align-items:center;
 }
 .btn-filter{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     height: 30px;
 }
-.eco{
-   display: flex;
-   width: 22%;
-   padding-left: 2%;
-   padding-right: 8%;
-   cursor: pointer;
-   margin-left: 2%;
-   margin-right: 7%;
-   align-items:center;
-   justify-content:center;
-   border: solid 1px;
-   font-weight: bold;
-   border-radius: 25px;
-}
-.fa-money-bill-1-wave{
+.filterIcon {
+    padding: 10px;
     border: 1px;
-    padding: 8%;
     border-radius: 25px;
     background-color: #DEEBFF;
     color:#0065FC;
 }
-.familial{
-    display: flex;
-    width: 22%;
-    padding-right: 6%;
-    margin-left: 2%;
-    margin-right: 7%;
-    align-items:center;
-    justify-content:center;
-    cursor: pointer;
-    border: solid 1px;
-    font-weight: bold;
-    border-radius: 25px;
- }
- .fa-child{
-     border: 1px;
-     padding: 11%;
-     border-radius: 25px;
-     background-color: #DEEBFF;
-     color:#0065FC;
- }
- .romantique{
-    display: flex;
-    width: 22%;
-    padding-left: 3%;
-    padding-right: 8%;
-    margin-right: 7%;
-    align-items:center;
-    justify-content:center;
-    cursor: pointer;
-    border: solid 1px;
-    font-weight: bold;
-    border-radius: 25px;
- }
- .fa-heart{
-     border: 1px;
-     padding: 11%;
-     border-radius: 25px;
-     background-color: #DEEBFF;
-     color:#0065FC;
- }
- .animaux{
-    display: flex;
-    width: 22%;
-    padding-left: 3%;
-    padding-right: 10%;
-    align-items:center;
-    justify-content:center;
-    white-space: nowrap;
-    cursor: pointer;
-    border: solid 1px;
-    font-weight: bold;
-    border-radius: 25px;
- }
- .fa-dog{
-     border: 1px;
-     padding: 11%;
-     border-radius: 25px;
-     background-color: #DEEBFF;
-     color:#0065FC;
- }
+.filterBorder{
+   display: flex;
+   width:15%;
+   cursor: pointer;
+   align-items:center;
+   border: solid 1px;
+   font-weight: bold;
+   border-radius: 25px;
+}
  .fa-circle-info{
      background-color: white;
      padding-right:1%;
      color: #0065FC;
  }
-#herbergement_popularity{
+.hebergement_popularity{
     display: flex;
-    width: 92%;
-    padding: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 h3{
     display: flex;
@@ -207,13 +136,11 @@ margin-bottom:4%;
 font-weight: bold;
 cursor: pointer;
 }
-
 .Popularity{
     width:28%;
     display: flex;
     padding:1rem;
     flex-direction: column;
-    justify-content: space-evenly;
     border-radius: 10px;
     background-color:#F2F2F2;
 }
@@ -258,7 +185,7 @@ white-space: nowrap;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 7%;
 }
 /*#region card*/
@@ -331,7 +258,7 @@ article {
     display: flex;
     flex-direction: column;
 }
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     body{
         margin: 0;
         display: flex;
@@ -383,5 +310,4 @@ article {
     footer{
         width: 100%;
     }
-}
-    @media screen and (max-width: 768px){}
+} */
