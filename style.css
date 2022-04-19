@@ -21,7 +21,7 @@ nav ul{
     width: 20%;
     justify-content: space-around;
     display: flex;
-    padding-right: 4%;
+    padding-right: 2%;
 }
 li :hover{
     transform: scaleX();
@@ -37,8 +37,7 @@ a{
 .h3-p{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    margin:15px;
+    margin:1%;
 }
 .recherche{
     display: flex;
@@ -142,11 +141,12 @@ article {
     padding: 3rem;
     padding-top: 2%;
 }
-h3{
+ h3{
     display: flex;
     flex-direction: column;
     margin-left: 4%;
 }
+
 #Hebergements{
     display: flex;
     flex-direction:row;
@@ -243,7 +243,6 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width:23%;
     margin-left:7%;
     border-radius: 3%;
     background-color: #fffefe;
@@ -258,23 +257,23 @@ cursor: pointer;
     box-shadow: 3px 5px 5px lightgrey;
     margin-right: 40%;
     border-radius: 5%;
-    width:231%;
+    width:100%;
 }
 .cardPomegues{
     box-shadow: 3px 5px 5px lightgrey;
-    width:231%;
+    width:100%;
     margin-right: 40%;
     border-radius: 5%;
 }
 .cardDame{
     box-shadow: 3px 5px 5px lightgrey;
-    width:231%;
+    width:100%;
     margin-right: 40%;
     border-radius: 5%;
 }
 .cardParc{
     box-shadow: 3px 5px 5px lightgrey;
-    width:231%;
+    width:100%;
     border-radius: 5%;
 }
 .case-text{
@@ -302,12 +301,13 @@ footer strong {
 .charte{
     display: flex;
     flex-direction:column;
+    
 }
 .assistance{
     display: flex;
     flex-direction: column;
 }
-/* @media screen and (max-width: 768px){
+ @media screen and (max-width: 768px){
     body{
         margin: 0;
         display: flex;
@@ -321,42 +321,56 @@ footer strong {
     li{
         display: flex; 
     }
-    #herbergement_popularity{
+    .recherche{
+        width:49%;
+    }
+    .filter{
+        width:94%;
+    }
+    .btn-filter{
+        display: flex;
+        justify-content: space-between;
+    }
+    .filterBorder{
+        width:31%;
+    }
+    .filterchild{
+        width:22%;
+    }
+    .filterDog{
+        width:41%;
+    }
+    .hebergement_popularity{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95%;
+        width: auto;
     }
     .Popularity{
         display: flex;
-        width:74%;
-        margin-left: 13%;
+        width:89%;
+        margin-right: 6%;
     }
     article {
         background-color:#F2F2F2;
-        margin-right: 4%;
-        width:58%;
+        margin-right: 7%;
+        width:85%;
         margin-bottom: 7%;
-        margin-left: 4%;
         padding-left:4%;
         border-radius: 25px;
     }
     #Activity{
         display:flex;
         flex-direction: column;
+        width: auto;
+        padding-left: 13%;
+        padding-bottom: 5%;
     }
-    .activity2{
-        display: flex;
-        flex-direction:column;  
-        margin-left: 5%;
-        margin-right: 7%;
-    }
-.activity1_2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.activityLeft{
+    padding-bottom: 4%;
 }
+
     footer{
         width: 100%;
     }
-} */
+}
