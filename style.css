@@ -127,6 +127,7 @@ article {
     width:65%;
     padding-left:4%;
     border-radius: 25px;
+    background-color: #F2F2F2
 }
 .hebergement_popularity{
     display: flex;
@@ -147,7 +148,6 @@ article {
     padding: 1rem;  
     justify-content:space-between;
     border-radius: 10px;
-    background-color: #F2F2F2;
     width: 91%;
 }
 #Hebergements .card{
