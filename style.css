@@ -180,6 +180,9 @@ p {
     margin: 0;
     margin-left:4%;
 }
+.note{
+    margin-left:3%;
+}
 .afficher{
 margin:2%;
 margin-bottom:4%;
@@ -200,12 +203,11 @@ cursor: pointer;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin-left: 5%;
+    margin-left: 35%;
     white-space: nowrap;
 }
 .h3_popularity{
-    padding-left: 4%;
-    margin-right: 15%;
+    margin-right: 80%;
 }
 
 .fa-chart-line{
@@ -353,7 +355,11 @@ footer{
     nav ul{
         display: flex;
         justify-content: space-around;
-        width: 20%;
+        width: 40%;
+        margin-right:7%;
+    }
+    header a {
+        margin-left: 60%;
     }
     .recherche{
         width:49%;
@@ -381,13 +387,20 @@ footer{
         padding-top: 0;
     }
     .case-text{
-        white-space: wrap;
+        margin-left: 5px;
     }
-
     .Popularity{
         display: flex;
-        width:100%;
-        
+        width: 92%;
+        margin-left: 4%;  
+    }
+    .head_popularity {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        margin-right: 7%;
+        white-space: nowrap;
     }
     .Popularity .card{
         display:flex;
@@ -401,12 +414,14 @@ footer{
         padding:2%;
     }
     strong{
-        flex-wrap: nowrap;
+        white-space:nowrap;
     }
     article {
         background-color:#F2F2F2;
         width:88%;
         margin-bottom: 7%;
+        margin-top: 4%;
+        margin-left: 4%;
         padding-left:4%;
         border-radius: 25px;
     }
@@ -414,14 +429,14 @@ footer{
         display:flex;
         flex-direction: column;
         width: auto;
-        padding-left: 0%;
-        padding-bottom: 0%;
+        padding-left: 14%;
+        padding-bottom: 5%;
     }
     .activityLeft{
         padding-bottom: 4%;
     }
     .activity_h3{
-        margin-left: 10%;
+        margin-left: 14%;
     }
 
 
@@ -446,6 +461,14 @@ footer{
         flex-direction: column;
         align-items: center;
         margin-top: 3%;
+    }
+    nav ul {
+        width:70%;
+        margin-right: 35%;
+    }
+    li:hover{
+        border-bottom:2px solid;
+        color: #0065FC;
     }
     h3 {
         margin-left: 10%;
@@ -476,12 +499,19 @@ footer{
     .filterDog{
         width:50%
     }
+    .hebergement_popularity {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     #Hebergements{
         display: flex;
         flex-direction: column;
     }
     #Hebergements .card{
         width:80%;
+    }
+    .head_popularity{
+        margin-left: 51%;
     }
     .Popularity .card{
         overflow-wrap: break-word;
@@ -515,6 +545,7 @@ footer{
     footer{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .propos , .charte , .assistance{
