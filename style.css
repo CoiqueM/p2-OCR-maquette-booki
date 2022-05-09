@@ -54,6 +54,10 @@ header h3{
     color: white;
     justify-content: center;
 }
+.btn-search::before{
+    content: "Recherche";
+}
+
 li{
     list-style-type: none;
     flex-direction: column;   
@@ -69,9 +73,15 @@ input{
     height: 2.2rem;
     width:100%
 }
-.search input.search{
-    padding:1.7rem;
+.search input{  
+    border: 1px solid #F2F2F2;
 }
+
+.search input::placeholder{
+    color : black;
+    font-weight: bold;
+}
+
 i{
     color:#0065FC;
 }
@@ -365,9 +375,12 @@ footer{
         width:49%;
     }
     .filter{
-        width:94%;
+        width:97%;
+        height:auto;
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap:wrap;
+        align-items: start;
     }
    
     .filterBorder{
@@ -377,7 +390,8 @@ footer{
         width:24%;
     }
     .filterDog{
-        width:41%;
+        width:30%;
+        margin :2%;
     }
     .hebergement_popularity{
         display: flex;
@@ -445,12 +459,6 @@ footer{
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    article {
-        margin-right: 0%;   
-        width:100%;
-        padding-left:0%;
-     
-    }
     body {
         margin: 0;
         display: flex;
@@ -460,10 +468,9 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3%;
     }
     nav ul {
-        width:70%;
+        width:100%;
         margin-right: 35%;
     }
     li:hover{
@@ -471,22 +478,47 @@ footer{
         color: #0065FC;
     }
     h3 {
-        margin-left: 10%;
+        margin-left: 1%;
     }
     .recherche {
-        width: 73%;
-        padding-left: 12%;
+        width: 100%;
+        margin:2%;
     }
     .btn-search{
-        width:15%;
+        width: 1%;
+        border-radius: 23%;
+    }
+    .icone_map{
+    background-color: #F2F2F2;
+    display: flex;
+    color: #0065FC;
+    width: 6%;
+    border-radius: 10px 0 0 10px;
+    padding: 0.5rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    }
+    input {
+        font-size: 20px;
+        height: 40px;
+        width: 100%;
+    }
+    .btn-search::before{
+        display: flex;
+        font-family: "Font Awesome 5 free";
+        font-weight: 900;
+        content: "\f002";
+        align-items: center;
     }
     .filter strong {
         margin-bottom: 2%;
     }
     .filter{
         display: flex;
-        flex-direction: column;
-        padding-bottom: 50%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:51%;
+        height:100%;
     }
     .filterBorder {
         width: 40%;
@@ -499,47 +531,89 @@ footer{
     .filterDog{
         width:50%
     }
+    article {
+        margin-right: 0%;   
+        width:100%;
+        padding-left:0%;
+    }
     .hebergement_popularity {
         display: flex;
         flex-direction: column-reverse;
     }
     #Hebergements{
         display: flex;
+        width: 100%;
         flex-direction: column;
     }
     #Hebergements .card{
-        width:80%;
+        width:100%;
+    }
+    #Hebergements img {
+        height: 135px;
+        width: 368px;
+        padding: 5px;
+        border-radius: 15px 15 0 0;
+        object-fit: cover;
+    }
+    strong{
+        white-space: normal;
     }
     .head_popularity{
         margin-left: 51%;
     }
-    .Popularity .card{
-        overflow-wrap: break-word;
+    .Popularity{
+        width:100%;
     }
-    .case-text{
-        white-space:wrap;
+    .Popularity .card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 3px 5px 5px lightgrey;
+        width: 100%;
+        overflow-wrap: wrap;
+        border-radius: 10px;
+        background-color: #fffefe;
+    }
+    .Popularity .card img {
+        border-radius: 10px 0px 0px 10px;
+        height: 135px;
+        width: 368px;
+        object-fit: cover;
     }
     .activity_h3 {
         margin-left: 20%;
     }
+    #Activity{
+        width:100%;
+        display: inline;
+    }
+    #Activity img {
+        height: 135px;
+        width: 368px;
+        padding: 5px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
     .activityLeft{
         display: flex;
         flex-direction: column;
-        margin-left: 8%;
+        width:100%;
         margin-bottom: 2%;
     }
     .activityRight{
         display: flex;
         flex-direction: column;
-        margin-left:8%;
+        width:100%;
         margin-bottom: 2%;
     }
     .cardHeb{
         display: flex;
-      margin-bottom: 15%;
+        width: 100%;
+        margin-bottom: 15%;
     }
     .cardDoubleHeb{
         margin-left:1%;
+        width: 100%;
     }
 
     footer{
