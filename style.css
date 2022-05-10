@@ -482,7 +482,8 @@ footer{
     }
     .recherche {
         width: 100%;
-        margin:2%;
+        margin-top: 4%;
+        margin-bottom: 3%;
     }
     .btn-search{
         width: 1%;
@@ -517,6 +518,8 @@ footer{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 4%;
+        margin-bottom: 3%;
         width:51%;
         height:100%;
     }
@@ -532,7 +535,7 @@ footer{
         width:50%
     }
     article {
-        margin-right: 0%;   
+        margin-left: 2%;  
         width:100%;
         padding-left:0%;
     }
@@ -546,13 +549,14 @@ footer{
         flex-direction: column;
     }
     #Hebergements .card{
-        width:100%;
+        width:98%;
+        margin-bottom: 5%;
     }
-    #Hebergements img {
+    #Hebergements .card img {
         height: 135px;
-        width: 368px;
+        width: 98%;
         padding: 5px;
-        border-radius: 15px 15 0 0;
+        border-radius: 15px 15px 0 0;
         object-fit: cover;
     }
     strong{
@@ -560,28 +564,30 @@ footer{
     }
     .head_popularity{
         margin-left: 51%;
+        
     }
     .Popularity{
         width:100%;
+        margin-left: 2%;
+        margin-top: 4%;
     }
     .Popularity .card{
         display: flex;
         flex-direction: row;
         align-items: center;
         box-shadow: 3px 5px 5px lightgrey;
-        width: 100%;
-        overflow-wrap: wrap;
+        width: 95%;
         border-radius: 10px;
         background-color: #fffefe;
     }
     .Popularity .card img {
-        border-radius: 10px 0px 0px 10px;
+        border-radius: 0% 5% 5% 0%;
         height: 135px;
-        width: 368px;
+        width: 175px;
         object-fit: cover;
     }
     .activity_h3 {
-        margin-left: 20%;
+        margin-left: 2%;
     }
     #Activity{
         width:100%;
@@ -620,13 +626,15 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-top: 10%;
     }
 
-    .propos , .charte , .assistance{
+    .propos, .charte, .assistance{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-left: 2%;
         margin-bottom:3%;
     }
 }
