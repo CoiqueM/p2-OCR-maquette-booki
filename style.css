@@ -375,7 +375,7 @@ footer{
         width:49%;
     }
     .filter{
-        width:97%;
+        width:100%;
         height:auto;
         display: flex;
         flex-direction: row;
@@ -520,11 +520,10 @@ footer{
         flex-wrap: wrap;
         margin-top: 4%;
         margin-bottom: 3%;
-        width:51%;
-        height:100%;
+        width:100%;
     }
     .filterBorder {
-        width: 40%;
+        width: 41%;
         margin-bottom: 3%;
     }
     .filterchild{
@@ -532,12 +531,13 @@ footer{
         margin-bottom: 3%;
     }
     .filterDog{
-        width:50%
+        width:52%
     }
     article {
         margin-left: 2%;  
         width:100%;
         padding-left:0%;
+        background-color: white;
     }
     .hebergement_popularity {
         display: flex;
@@ -567,21 +567,24 @@ footer{
         
     }
     .Popularity{
-        width:100%;
-        margin-left: 2%;
+        width:104%;
+        /* //margin-left: 2%; */
+        margin: 0%;
         margin-top: 4%;
+        border-radius: 0%;
+      
     }
     .Popularity .card{
         display: flex;
         flex-direction: row;
         align-items: center;
         box-shadow: 3px 5px 5px lightgrey;
-        width: 95%;
+        width: 90%;
         border-radius: 10px;
         background-color: #fffefe;
     }
     .Popularity .card img {
-        border-radius: 0% 5% 5% 0%;
+        border-radius: 20px 0px 0px 20px;
         height: 135px;
         width: 175px;
         object-fit: cover;
@@ -632,7 +635,7 @@ footer{
     .propos, .charte, .assistance{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: center;
         margin-left: 2%;
         margin-bottom:3%;
