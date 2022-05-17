@@ -23,9 +23,9 @@ nav ul{
     width: 20%;
     margin-right: 2%;
 }
-li:hover{
-    border-top:2px solid;
-    color: #0065FC;
+a:hover{
+    border-top:2px solid #0065fc;
+    padding-top:14px;
 }
 
 a{
@@ -33,12 +33,15 @@ a{
     color:#b8b5b5;
 }
 header h3{
-    margin-left: 3%;
+    margin-left: 4%;
 }
 .h3-p{
     display: flex;
     flex-direction: column;
-    margin:1%;
+}
+.text-header{
+    margin-right:1%;
+    margin-bottom: 2%;
 }
 .recherche{
     display: flex;
@@ -68,6 +71,9 @@ li{
     color:#0065FC;
     border-radius:10px 0 0 10px;
     padding: 0.50rem 0.50rem;
+}
+.fa-location-dot{
+    color:black;
 }
 input{
     font-size: 1.0rem;
@@ -178,6 +184,7 @@ article {
     box-shadow: 3px 5px 5px lightgrey;
     object-fit: cover;
     margin-bottom: 2%;
+    cursor: pointer;
 }
 #Hebergements .card img{
 border-radius: 10px 10px 0px 0px;
@@ -235,6 +242,7 @@ cursor: pointer;
     margin:5%;
     border-radius: 10px;
     background-color: #fffefe;
+    cursor: pointer;
 }
 .Popularity .card img {
     border-radius: 10px 0px 0px 10px;
@@ -270,6 +278,7 @@ cursor: pointer;
     padding-bottom: 5%;
     box-shadow: 3px 5px 5px lightgrey;
     background-color: #fffefe;
+    cursor: pointer;
 }
 .cardHeb img{
     height: 315px;
@@ -284,6 +293,7 @@ cursor: pointer;
     margin-left:9%;
     border-radius: 3%;
     background-color: #fffefe;
+    cursor: pointer;
 }
 .cardDoubleHeb img{
     height: 120px;
@@ -599,7 +609,7 @@ footer{
     }
     #Activity img {
         height: 135px;
-        width: 368px;
+        width: 420px;
         padding: 5px;
         border-radius: 15px;
         object-fit: cover;
