@@ -42,7 +42,8 @@ header h3{
 }
 .recherche{
     display: flex;
-    padding-left: 4%;
+    margin-left: 4%;
+    margin-bottom: 1%;
     width:26%;
     cursor: pointer;
 }
