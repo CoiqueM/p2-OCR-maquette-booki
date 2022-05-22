@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 body{
     height: 100%;
+    box-sizing: border-box;
     margin: 0;
     font-family: "Raleway", "Sans serif";
 }
@@ -24,7 +25,7 @@ nav ul{
     margin-right: 2%;
 }
 a:hover{
-    border-top:2px solid #0065fc;
+    border-top:1px solid #0065fc;
     padding-top:14px;
 }
 
@@ -93,6 +94,12 @@ i{
     color:#0065FC;
 }
 
+.filt{
+    display: flex;
+    flex-direction:row;
+    align-items:center
+}
+
 .filter{
     padding:1%;
     align-items:center;
@@ -140,7 +147,7 @@ width:12%;
 border-color:#d4d4d4
 }
 .filterDog{
-width:18%;
+width:20%;
 border-color:#d4d4d4
 }
 .fa-circle-info{
@@ -200,6 +207,9 @@ p {
 }
 .note{
     margin-left:3%;
+}
+.fa-regular{
+    color: lightgray;
 }
 .afficher{
 margin:2%;
@@ -338,7 +348,7 @@ cursor: pointer;
     margin-top: 3%;
 }
 .case-text{
-    margin-left: 15px;
+    margin-left: 7px;
 }
 footer{   
     display: flex;
@@ -380,10 +390,22 @@ footer{
         margin-right:7%;
     }
     header a {
-        margin-left: 60%;
+        width: 100%;
+        text-align: center;
+    }
+    li{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
     .recherche{
         width:49%;
+    }
+    .filt{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
     }
     .filter{
         width:100%;
@@ -482,17 +504,20 @@ footer{
     }
     nav ul {
         width:100%;
-        margin-right: 35%;
+         /* margin-right: 0%;  */
+         margin : 0;
+         padding: 0;
     }
-    li:hover{
-        border-bottom:2px solid;
-        color: #0065FC;
+    a:hover{
+        border-bottom:2px solid #0065FC;
+        padding-bottom:6px;
+        border-top : 0;
     }
     h3 {
         margin-left: 1%;
     }
     .recherche {
-        width: 100%;
+        width: 95%;
         margin-top: 4%;
         margin-bottom: 3%;
     }
@@ -525,6 +550,12 @@ footer{
     .filter strong {
         margin-bottom: 2%;
     }
+
+    .filt{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .filter{
         display: flex;
         flex-direction: row;
@@ -556,7 +587,7 @@ footer{
     }
     #Hebergements{
         display: flex;
-        width: 100%;
+        width: 97%;
         flex-direction: column;
     }
     #Hebergements .card{
@@ -578,7 +609,7 @@ footer{
         
     }
     .Popularity{
-        width:104%;
+        width:102%;
         /* //margin-left: 2%; */
         margin: 0%;
         margin-top: 4%;
@@ -632,7 +663,7 @@ footer{
         margin-bottom: 15%;
     }
     .cardDoubleHeb{
-        margin-left:1%;
+        margin-left:0%;
         width: 100%;
     }
 
