@@ -137,7 +137,7 @@ i{
     white-space: nowrap;
 }
 .filterBorder{   
-   width:15%;
+   width:14%;
    margin-left: 2%;
    margin-right: 2%;  
    border-color:#d4d4d4
@@ -147,7 +147,7 @@ width:12%;
 border-color:#d4d4d4
 }
 .filterDog{
-width:20%;
+width:18%;
 border-color:#d4d4d4
 }
 .fa-circle-info{
@@ -660,7 +660,7 @@ footer{
     .cardHeb{
         display: flex;
         width: 100%;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     }
     .cardDoubleHeb{
         margin-left:0%;
