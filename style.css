@@ -514,7 +514,7 @@ footer{
         border-top : 0;
     }
     h3 {
-        margin-left: 1%;
+        margin-left: 2%;
     }
     .recherche {
         width: 95%;
@@ -594,6 +594,9 @@ footer{
         width:98%;
         margin-bottom: 5%;
     }
+    .case-text {
+        margin-left: 1px;
+    }
     #Hebergements .card img {
         height: 135px;
         width: 98%;
@@ -626,9 +629,10 @@ footer{
         background-color: #fffefe;
     }
     .Popularity .card img {
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 9px 0px 0px 9px;
         height: 135px;
         width: 175px;
+        padding:0;
         object-fit: cover;
     }
     .activity_h3 {
