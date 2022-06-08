@@ -407,8 +407,6 @@ footer{
     }
     nav ul {
         width:100%;
-         /* margin-right: 0%;  */
-         margin : 0;
          padding: 0;
     }
     a:hover{
@@ -429,12 +427,8 @@ footer{
         border-radius: 23%;
     }
     .icone_map{
-    background-color: #F2F2F2;
     display: flex;
-    color: #0065FC;
     width: 6%;
-    border-radius: 10px 0 0 10px;
-    padding: 0.5rem 0.5rem;
     justify-content: center;
     align-items: center;
     }
@@ -464,6 +458,7 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 4%;
+        margin-left: 8%;
         margin-bottom: 17%;
         width:100%;
     }
@@ -514,41 +509,33 @@ footer{
     }
 
     .Popularity{
-        width:102%;
+        width:100%;
         /* //margin-left: 2%; */
-        margin: 0%;
-        margin-top: 4%;
-        border-radius: 0%;
-      
+        margin-top: 4%; 
     }
     .Popularity .card{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        box-shadow: 3px 5px 5px lightgrey;
         width: 90%;
-        border-radius: 10px;
-        background-color: #fffefe;
     }
     .Popularity .card img {
-        border-radius: 9px 0px 0px 9px;
         height: 135px;
-        width: 175px;
-        padding:0;
-        object-fit: cover;
+        width: 45%;
     }
     .activity_h3 {
-        margin-left: 2%;
+        margin-left: 11%;
     }
     #Activity{
+        display: flex;
+        flex-direction: column;
         width:100%;
-        display: inline;
+        margin-left: 10%;
+        
     }
     #Activity img {
         height: 200px;
         width: 99%;
-        padding: 5px;
-        border-radius: 15px;
+        padding: 1%;
+        border-radius: 6%;
         object-fit: cover;
     }
     .activityLeft{
@@ -577,6 +564,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
         margin-top: 10%;
     }
 
