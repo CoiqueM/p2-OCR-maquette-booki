@@ -140,15 +140,18 @@ i{
 .filterBorder{   
    width:14%;
    margin-left: 2%;
-   margin-right: 2%;  
+   margin-right: 2%; 
+   padding-right: 4%; 
    border-color:#d4d4d4
 }
 .filterchild{
 width:12%;
+padding-right: 4%;
 border-color:#d4d4d4
 }
 .filterDog{
 width:18%;
+padding-right: 6%;
 border-color:#d4d4d4
 }
 .fa-circle-info{
@@ -418,7 +421,7 @@ footer{
         margin-left: 2%;
     }
     .recherche {
-        width: 95%;
+        width: 90%;
         margin-top: 4%;
         margin-bottom: 3%;
     }
@@ -452,6 +455,8 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 15%;
+        width:90%;
     }
     .filter{
         display: flex;
@@ -472,7 +477,7 @@ footer{
         margin-bottom: 3%;
     }
     .filterDog{
-        width:49%
+        width:58%
     }
     article {
         margin-left: 2%;  
@@ -483,7 +488,7 @@ footer{
     .hebergement_popularity {
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
+        width: 74%;
     }
     #Hebergements{
         display: flex;
@@ -527,7 +532,7 @@ footer{
     #Activity{
         display: flex;
         flex-direction: column;
-        width:100%;
+        width:78%;
         margin-left: 10%;
         
     }
@@ -574,6 +579,7 @@ footer{
         align-items: start;
         justify-content: center;
         margin-left: 2%;
+        margin-top:3%;
         margin-bottom:3%;
     }
 }
